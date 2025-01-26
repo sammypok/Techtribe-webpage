@@ -1,0 +1,210 @@
+body{
+    background-image: url(/SL.120219.25650.43.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+.glass-box{
+    width: 930px;
+    height: 530px;
+    background: radial-gradient greenyellow;
+    box-shadow: 0 0 30px greenyellow;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+}
+nav{
+    width: 60%;
+    display: flex;
+    background: rgb(7, 7, 87);
+    align-items: center;
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    list-style: none;  /*to remove the dots besides the lists*/
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+}
+li a:hover{
+    color: rgb(114, 185, 7);;
+    transition: .3s ease;
+}
+.search input{
+    border-radius: 10px;
+    height: 30px;
+    width: 27%;
+    float: right;
+    margin:-32px 40px;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 3px solid white;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: white;
+}
+.search::placeholder{
+    color: white;
+    font-size: 17px;
+}
+.search input:hover{
+    border-bottom: 3px solid rgb(114, 185, 7);;
+}
+.btn{
+    float: right;
+    border-radius: 10px;
+    height: 30px;
+    width: 9%;
+    background-color:blue;
+    color: white;
+    font-size: bold;
+    margin: -30px 40px;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    transition: .3s ease;
+}
+i {
+    position: relative;
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+i:hover{
+    color: rgb(114, 185, 7);;
+}
+.social{
+    float: right;
+    height: 230px;
+    width: 80px;
+    background-color:rgb(7, 7, 87);
+    margin-top: 230px;
+    border-top-left-radius :20px;
+    border-bottom-right-radius: 20px;
+}
+.icon1 i{
+    margin: 6px 30px;
+}
+.search ::placeholder{
+    color: white;
+}
+.icon{
+    float: right;
+    margin: -32px 40px;
+}
+.login{
+    margin:0 40px;
+    padding:10px 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    box-shadow: 0 0 30px greenyellow;
+    border-radius: 20px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    border: 5px solid rgb(7, 7, 87);
+}
+.login:hover{
+    border:5px solid white;
+    transition: 0.3s ease;
+}
+.box h1{
+    color:greenyellow;
+}
+.box{
+    display: flex;
+    margin-top: 40px;
+}
+.box input{
+    width: 90%;
+    height: 30px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    border-bottom: 2px solid white;
+    transition: .3s ease;
+}
+.box input:hover{
+    border-bottom:2px solid rgb(114, 185, 7);
+    transition: .3s ease;
+}
+.box input::placeholder{
+    color: white;
+}
+.box h5 a{
+    color: red;
+    text-decoration: none;
+}
+.box h5 a:hover{
+    color: rgba(161, 152, 152, 0.747);
+}
+.log{
+    background-color: blue;
+    padding: 6px 18px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.log:hover{
+    color: black;
+    background-color: rgb(114, 185, 7);;
+    transition: .3s ease;
+}
+.desc{
+    width: 410px;
+    height: 360px;
+    border: 5px solid rgb(7, 7, 87);
+    border-radius: 5%;
+    padding: 10px;
+    box-shadow: 0 0 30px greenyellow;
+}
+.desc:hover{
+    border: 5px solid white;
+}
+.desc h1{
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+}
+.desc p{
+    color: white;
+    font-family: sans-serif;
+}
+.desc button{
+    outline: none;
+    border: none;
+    padding: 6px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 4px;
+    font-size: 15px;
+
+}
+.desc button:hover{
+    background-color: rgb(114, 185, 7);
+    transition: .3s ease;
+    color: white;
+}
